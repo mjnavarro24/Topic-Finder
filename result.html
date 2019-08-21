@@ -1,0 +1,28 @@
+<html>
+    <head>
+    <p><font size = "30">Search Results</font></p>
+    </head>
+    <body>
+        
+        <p><font size = "25">YouTube</font></p>
+        {% for post in word[0] %}
+            <div class = "post">
+                {{post}}<p> 
+            </div>
+        {% endfor %}
+        <p><font size = "25">Reddit</font></p>
+        {% for post in word[1] %}
+            <div class = "post">
+                {{post}}<p> 
+            </div>
+        {% endfor %}
+        <!-- {% for post in word_2 %}
+            <div class = "post">
+                {{post}}
+            </div>
+        {% endfor %} -->
+
+
+        
+    </body>
+</html>
